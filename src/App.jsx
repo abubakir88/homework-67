@@ -1,11 +1,11 @@
 import "./App.css";
-import Cards from "./app";
+import TripList from "./components/TripList";
 
 function App() {
   return (
-    <>
-      <Cards />
-    </>
+    <div className="App">
+      <TripList />
+    </div>
   );
 }
 
