@@ -12,9 +12,25 @@ ul {
 li {
   max-width: 300px;
   width: 300px;
-  min-width: 300px;
+  min-width: 330px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
   list-style-type: none;
   border: 1px solid #e4e4e4;
+}
+
+span {
+  color: blue;
+}
+
+.btns {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.btns button {
+  background-color: rgb(55, 25, 254);
+  gap: 20px;
+  color: #fff;
+  margin: 0px 8px;
 }

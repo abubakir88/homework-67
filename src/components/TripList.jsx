@@ -24,12 +24,27 @@ function TripList() {
                 <li key={trip.id}>
                   <h2>Id: {trip.id}</h2>
                   <h3>Name: {trip.name}</h3>
-                  <p>Username: {trip.username}</p>
-                  <p>Email: {trip.email}</p>
-                  <p>Website: {trip.website}</p>
                   <p>
-                    Address: {`${trip.address.city},${trip.address.street}`}
+                    Username: <span>{trip.username}</span>
                   </p>
+                  <p>
+                    Email: <span>{trip.email}</span>
+                  </p>
+                  <p>
+                    Website: <span>{trip.website}</span>
+                  </p>
+                  <p>
+                    Address:
+                    <span>{`${trip.address.city},${trip.address.street}`}</span>
+                  </p>
+                  <p>
+                    Phone: <span>{trip.phone}</span>
+                  </p>
+                  <div className="btns">
+                    <button>Posts</button>
+                    <button>Todos</button>
+                    <button>Album</button>
+                  </div>
                 </li>
               );
             })}
