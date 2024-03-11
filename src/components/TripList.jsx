@@ -35,7 +35,10 @@ function TripList() {
                   </p>
                   <p>
                     Address:
-                    <span>{`${trip.address.city},${trip.address.street}`}</span>
+                    <span>
+                      {" "}
+                      {`${trip.address.city},${trip.address.street}`}
+                    </span>
                   </p>
                   <p>
                     Phone: <span>{trip.phone}</span>
